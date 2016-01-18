@@ -11,6 +11,7 @@ check_dir_exists $GIZA_HOME
 normalize GIZA_HOME
 
 cd $GIZA_HOME
-#svn revert -R .
-svn update -r HEAD --non-interactive --no-auth-cache --username readonly --password readonly --accept tf
+svn revert -R .
+# Commenting temporarily
+#svn update -r HEAD --non-interactive --no-auth-cache --username readonly --password readonly --accept tf
 #svn checkout -r HEAD --non-interactive --no-auth-cache --username readonly --password readonly --accept tf
