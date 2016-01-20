@@ -98,7 +98,7 @@ cd "$GIZA_HOME"
 #cd
 #cd "$PATH_TO_GEMFILE"
 #cd "/Users/Shared/giza/mobile/features/Offline/DataSync"
-#run_bundle_install
+run_bundle_install
 #cd
 #cd "$GIZA_HOME"
 echo "Start testing of '$RSPEC_FILE_PATH'"
