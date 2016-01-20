@@ -98,6 +98,7 @@ cd "$GIZA_HOME"
 #cd
 #cd "$PATH_TO_GEMFILE"
 #cd "/Users/Shared/giza/mobile/features/Offline/DataSync"
+echo "bundle bhargav"
 run_bundle_install
 #cd
 #cd "$GIZA_HOME"
